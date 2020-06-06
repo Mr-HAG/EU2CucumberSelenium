@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="067db95e-1d02-4751-8c89-e53463be1968" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cg8f2W3CWVAGixEE6A0iM8VQca" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MR.HAG\IdeaProjects\EU2CucumberSelenium\src\test\java\com\vytrack\pages" />
+      <recent name="C:\Users\MR.HAG\IdeaProjects\EU2CucumberSelenium\src\test\java\com\vytrack\utilities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU2CucumberSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CukesRunnerNav" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU2CucumberSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.runners.CukesRunnerNav" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunnerNav" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="067db95e-1d02-4751-8c89-e53463be1968" name="Default Changelist" comment="" />
+      <created>1590938975106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590938975106</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="0" key="#Plugins" timestamp="1591276614364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="0" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1591276614364" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1590941002664">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1590941002664" />
+    <state x="363" y="94" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591276166263">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="94" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1591276166263" />
+    <state width="1322" height="214" key="GridCell.Tab.0.bottom" timestamp="1591300878754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591300878754" />
+    <state width="1322" height="214" key="GridCell.Tab.0.center" timestamp="1591300878754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591300878754" />
+    <state width="1322" height="214" key="GridCell.Tab.0.left" timestamp="1591300878754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591300878754" />
+    <state width="1322" height="214" key="GridCell.Tab.0.right" timestamp="1591300878754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591300878754" />
+    <state width="1322" height="214" key="GridCell.Tab.1.bottom" timestamp="1591300878770">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591300878770" />
+    <state width="1322" height="214" key="GridCell.Tab.1.center" timestamp="1591300878770">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1591300878770" />
+    <state width="1322" height="214" key="GridCell.Tab.1.left" timestamp="1591300878754">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1591300878754" />
+    <state width="1322" height="214" key="GridCell.Tab.1.right" timestamp="1591300878770">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1591300878770" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1591035228666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591035228666" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591114623021">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1591114623021" />
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1591300049140">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1591300049140" />
+    <state x="65" y="19" key="new project wizard" timestamp="1591333346756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="19" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1591333346756" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591114741624">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591114741624" />
+  </component>
+</project>
