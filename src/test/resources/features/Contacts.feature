@@ -26,8 +26,34 @@ Feature: Contacts page
   Scenario: login as a given user
     Given the user is on the login page
     When the user logs in using following credentials
-      | username    | user1       |
-      | password    | UserUser123 |
-      | firstname   | John        |
-      | lastname    | Doe         |
+      | username  | user1       |
+      | password  | UserUser123 |
+      | firstname | John        |
+      | lastname  | Doe         |
     Then the user should be able to login
+
+  Scenario: login as a given user
+    Given the user is on the login page
+    When the user logs in using following credentials
+      | username  | salesmanager101 |
+      | password  | UserUser123     |
+      | firstname | Peyton          |
+      | lastname  | Herber          |
+    Then the user should be able to login
+
+
+  Scenario Outline: login as a given user <userType>
+    Given the user is on the login page
+    When the user logs in using following credentials
+      | username  | <userType>  |
+      | password  | UserUser123 |
+      | firstname | <firstName> |
+      | lastname  | <lastName>  |
+    Then the user should be able to login
+
+    Examples:
+
+      | userType        | firstName | lastName |
+      | user1           | John      | Doe      |
+      | salesmanager101 | Peyton    | Harber   |
+      | storemanager58  | Nola      | Hammes   |

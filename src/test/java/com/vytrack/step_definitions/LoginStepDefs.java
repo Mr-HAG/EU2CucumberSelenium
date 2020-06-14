@@ -1,6 +1,7 @@
 package com.vytrack.step_definitions;
 
 import com.vytrack.pages.LoginPage;
+import com.vytrack.utilities.BrowserUtils;
 import com.vytrack.utilities.ConfigurationReader;
 import com.vytrack.utilities.Driver;
 import io.cucumber.java.en.And;
@@ -67,6 +68,8 @@ public class LoginStepDefs {
 
     @And("the title contains {string}")
     public void theTitleContains(String expectedTitle) {
+
+        BrowserUtils.waitFor(5);
         System.out.println("expectedTitle = " + expectedTitle);
         Assert.assertTrue(Driver.get().getTitle().contains(expectedTitle));
     }
