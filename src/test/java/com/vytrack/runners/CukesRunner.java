@@ -8,10 +8,10 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        plugin = {"json:target\\cucumber.json",
-                "html:target\\default-html-reports"},
-        features = "src\\test\\resources\\features\\",
-        glue = "com\\vytrack\\step_deffinitions",
+        plugin = {"json:target/cucumber.json",
+                "html:target/default-html-reports"},
+        features = "src/test/resources/features/",
+        glue = "com/vytrack/step_definitions",
         dryRun = false,
 
         // "@driver and @VYT-123" => old syntax -> tags = {"@driver","@VYT-123"} - run if they together
