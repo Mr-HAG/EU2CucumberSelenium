@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
         // "@driver and @VYT-123" => old syntax -> tags = {"@driver","@VYT-123"} - run if they together
         // "@driver or @store_manager"  -> run each of them
         // "@login and not @wip" --> all login but not wip
-        tags = "@wip"
+        tags = "@smoke"
 )
 public class CukesRunner {
 }
