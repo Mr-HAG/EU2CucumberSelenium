@@ -21,12 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="067db95e-1d02-4751-8c89-e53463be1968" name="Default Changelist" comment="new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginWithParameters.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginWithParameters.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
       <recent name="C:\Users\MR.HAG\IdeaProjects\EU2CucumberSelenium\src\test\java\com\vytrack\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
+  <component name="RunManager" selected="JUnit.FailedTestRunner">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU2CucumberSelenium" />
       <extension name="coverage">
@@ -99,8 +96,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU2CucumberSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.runners.FailedTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunnerNav" />
       </list>
@@ -131,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592153864330</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new">
+      <created>1592159558051</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592159558051</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,30 +191,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="291" y="57" key="#features_in_EU2CucumberSelenium/0.0.1440.900@0.0.1440.900" timestamp="1592153377539" />
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom" timestamp="1592159533210">
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom" timestamp="1592187774559">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1322" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591300878754" />
     <state width="1398" height="294" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592154750933" />
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1592159533210" />
-    <state width="1398" height="206" key="GridCell.Tab.0.center" timestamp="1592159533210">
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1592187774559" />
+    <state width="1398" height="295" key="GridCell.Tab.0.center" timestamp="1592187774558">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1322" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591300878754" />
     <state width="1398" height="294" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592154750932" />
-    <state width="1398" height="206" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1592159533210" />
-    <state width="1398" height="206" key="GridCell.Tab.0.left" timestamp="1592159533209">
+    <state width="1398" height="295" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1592187774558" />
+    <state width="1398" height="295" key="GridCell.Tab.0.left" timestamp="1592187774557">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1322" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591300878754" />
     <state width="1398" height="294" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592154750932" />
-    <state width="1398" height="206" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1592159533209" />
-    <state width="1398" height="206" key="GridCell.Tab.0.right" timestamp="1592159533210">
+    <state width="1398" height="295" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1592187774557" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right" timestamp="1592187774558">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1322" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591300878754" />
     <state width="1398" height="294" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592154750933" />
-    <state width="1398" height="206" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1592159533210" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1592187774558" />
     <state width="1322" height="214" key="GridCell.Tab.1.bottom" timestamp="1591300878770">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -215,10 +235,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591035228666" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592147557620">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1592159563904">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592147557620" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1592159563904" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591114623021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -227,10 +248,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="508" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1592147482378" />
-    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1591300049140">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="411" y="23" width="617" height="797" key="find.popup" timestamp="1592187150724">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1591300049140" />
+    <state x="411" y="23" width="617" height="797" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1592187150724" />
     <state x="65" y="19" key="new project wizard" timestamp="1591333346756">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
