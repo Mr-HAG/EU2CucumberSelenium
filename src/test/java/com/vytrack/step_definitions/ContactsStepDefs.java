@@ -1,11 +1,9 @@
 package com.vytrack.step_definitions;
 
-import com.vytrack.pages.BasePage;
-import com.vytrack.pages.ContactsPage;
-import com.vytrack.pages.DashboardPage;
-import com.vytrack.pages.LoginPage;
+import com.vytrack.pages.*;
 import com.vytrack.utilities.BrowserUtils;
 import com.vytrack.utilities.ConfigurationReader;
+import com.vytrack.utilities.DBUtils;
 import com.vytrack.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -77,5 +75,55 @@ public class ContactsStepDefs {
     @Then("the information should be same with database")
     public void theInformationShouldBeSameWithDatabase() {
         BrowserUtils.waitFor(3);
+        //get actual data from UI
+        ContactInfoPage contactInfoPage=new ContactInfoPage();
+        String actualFullName = contactInfoPage.contactFullName.getText();
+        String actualEmail = contactInfoPage.email.getText();
+        String actualPhone= contactInfoPage.phone.getText();
+
+        System.out.println("actualFullName = " + actualFullName);
+        System.out.println("actualEmail = " + actualEmail);
+        System.out.println("actualPhone = " + actualPhone);
+
+        //get expected data from database
+        String query = "select concat (first_name,' ',last_name) as fullname , e.email,phone \n" +
+                "from orocrm_contact c JOIN orocrm_contact_email e\n" +
+                "ON c.id=e.owner_id\n" +
+                "JOIN orocrm_contact_phone p\n" +
+                "ON e.owner_id=p.owner_id\n" +
+                "where e.email = 'mbrackstone9@example.com'";
+        //get connection
+        DBUtils.createConnection();
+
+        //create data
+        //if you are dealing with multiple rows use List<Map<String,Object>>
+        Map<String,Object> rowMap = DBUtils.getRowMap(query);
+        System.out.println(rowMap);
+
+        //String expectedFirst = (String) rowMap.get("first_name");
+        //String expectedLast = (String) rowMap.get("last_name");
+
+        String expectedFull = (String) rowMap.get("fullname");
+        String expectedEmail = (String) rowMap.get("email");
+        String expectedPhone = (String) rowMap.get("phone");
+
+        System.out.println("expectedFull = " + expectedFull);
+        System.out.println("expectedEmail = " + expectedEmail);
+        System.out.println("expectedPhone = " + expectedPhone);
+
+
+        //close connection
+        DBUtils.destroy();
+
+
+        //Compare UI to DB
+
+        Assert.assertEquals(expectedFull,actualFullName);
+        Assert.assertEquals(expectedEmail,actualEmail);
+        Assert.assertEquals(expectedPhone,actualPhone);
+
+
+
+
     }
 }
