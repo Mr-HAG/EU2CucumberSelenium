@@ -10,6 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import java.sql.DriverManager;
+import java.util.concurrent.TimeUnit;
 
 
 public class Hooks {
@@ -26,6 +27,7 @@ public class Hooks {
         //loginPage.login(name,password);
 
         Driver.get().manage().window().maximize();
+        Driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
     }
 
