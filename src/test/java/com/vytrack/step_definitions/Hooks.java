@@ -9,12 +9,13 @@ import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import java.sql.DriverManager;
+
 
 public class Hooks {
 
     @Before
     public void setUp(){
-
 
         //System.out.println("\tThis is coming from BEFORE");
         //String url = ConfigurationReader.get("url");
@@ -23,6 +24,8 @@ public class Hooks {
         //String password = ConfigurationReader.get("sales_manager_password");
         //LoginPage loginPage = new LoginPage();
         //loginPage.login(name,password);
+
+        Driver.get().manage().window().maximize();
 
     }
 

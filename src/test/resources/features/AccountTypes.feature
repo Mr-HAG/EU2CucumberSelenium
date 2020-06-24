@@ -10,7 +10,7 @@ Feature: Account Types
     Given the user logged as "sales manager"
     When the user navigates "Customers" "Accounts"
     Then the title contains "Accounts - CustomersS"
-  @wip
+
   Scenario: Store manager user
     Given the user logged as "store manager"
     When the user navigates "Customers" "Contacts"
