@@ -118,10 +118,66 @@ public class ContactsStepDefs {
 
         //Compare UI to DB
 
+
         Assert.assertEquals(expectedFull,actualFullName);
         Assert.assertEquals(expectedEmail,actualEmail);
         Assert.assertEquals(expectedPhone,actualPhone);
 
+
+
+    }
+
+    @Then("the information {string} should be same with database")
+    public void theInformationShouldBeSameWithDatabase(String string) {
+
+        BrowserUtils.waitFor(3);
+        //get actual data from UI
+        ContactInfoPage contactInfoPage=new ContactInfoPage();
+        String actualFullName = contactInfoPage.contactFullName.getText();
+        String actualEmail = contactInfoPage.email.getText();
+        String actualPhone= contactInfoPage.phone.getText();
+
+        System.out.println("actualFullName = " + actualFullName);
+        System.out.println("actualEmail = " + actualEmail);
+        System.out.println("actualPhone = " + actualPhone);
+
+        //get expected data from database
+        String query = "select concat (first_name,' ',last_name) as fullname , e.email,phone \n" +
+                "from orocrm_contact c JOIN orocrm_contact_email e\n" +
+                "ON c.id=e.owner_id\n" +
+                "JOIN orocrm_contact_phone p\n" +
+                "ON e.owner_id=p.owner_id\n" +
+                "where e.email = '" + string + "'";
+        //get connection
+        //DBUtils.createConnection();
+
+        //create data
+        //if you are dealing with multiple rows use List<Map<String,Object>>
+        Map<String,Object> rowMap = DBUtils.getRowMap(query);
+        System.out.println(rowMap);
+
+        //String expectedFirst = (String) rowMap.get("first_name");
+        //String expectedLast = (String) rowMap.get("last_name");
+
+        String expectedFull = (String) rowMap.get("fullname");
+        String expectedEmail = (String) rowMap.get("email");
+        String expectedPhone = (String) rowMap.get("phone");
+
+        System.out.println("expectedFull = " + expectedFull);
+        System.out.println("expectedEmail = " + expectedEmail);
+        System.out.println("expectedPhone = " + expectedPhone);
+
+
+        //close connection
+        //DBUtils.destroy();
+
+
+        //Compare UI to DB
+
+
+        Assert.assertEquals(expectedFull,actualFullName);
+        Assert.assertEquals(expectedEmail,actualEmail);
+        Assert.assertEquals(expectedPhone,actualPhone);
 
 
 
